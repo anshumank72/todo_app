@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+.container {
+  max-width: 600px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Caprasimo", cursive;
+}
+.todo-app {
+  background: linear-gradient(98.06deg, #6a51c9 1.05%, #14a9ff);
+  height: 100vh;
+}
+#header {
+  background: transparent;
+}
+.logo {
+  height: 80px;
+  width: auto;
+}
+.logo img {
+  height: 100%;
+}
+.td-top,
+.td-bottom {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+}
+.td-top {
+  padding: 18px;
+}
+.td-top input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.add-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  padding: 4px 7px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  transform: translateY(-50%);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.td-bottom {
+  height: 60vh;
+}
+.td-bottom-header {
+  padding: 8px 0;
+  text-align: center;
+}
+.btn-trash {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  transition: 1s flex ease-in-out;
+}
+.card-body {
+  padding: 5px 10px;
+}
+.empty-img {
+  width: 200px;
+}
+.empty-img img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .todo-app {
+    padding: 0 12px;
+  }
+  .td-bottom {
+    height: 70vh;
+  }
+}
